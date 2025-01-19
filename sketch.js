@@ -99,7 +99,7 @@ function mouseClicked() {
         document.getElementById('ties').innerHTML = "Ties: " + ties;
       } else { 
         winner = true;
-        if (playerTurn == 2) { 
+        if (playerTurn == 1) { 
           xWins++;
           document.getElementById('xWins').innerHTML = "X Wins: " + xWins;
         } else {
